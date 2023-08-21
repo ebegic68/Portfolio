@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1691273340 source:c:\users\pc-user\desktop\autoprodaja\main.cpp
-	<iostream>
-	<string.h>
-	<fstream>
-	<stdio.h>
-	<process.h>
-	<dos.h>
-
