@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+.vrati_meni{
+    
+    text-align: left;
+    margin-bottom: 22px;
+   
+}
+.kontejner_govornici{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+.govornik{
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: white;
+    max-width: 400px;
+    margin: 0 auto 20px auto;
+
+}
+.govornik_slika{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 80%; /*zaokruziti sliku*/
+    margin-bottom: 15px;
+}
+.govornik_ime{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.govornik_bio{
+    font-size: 15px;
+    color: #555;
+    font-style: italic;
+    text-align: left;
+
+}
